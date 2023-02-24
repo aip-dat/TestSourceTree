@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 asda
+=======
+them text de test sua bang remote 
+>>>>>>> ac2496737009a78a5a768a0e0fec2acc3cb648a7
