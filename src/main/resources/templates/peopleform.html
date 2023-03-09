@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>People Form</title>
+</head>
+<body>
+<h1>List Control</h1>
+<form method="POST" action="/people">
+  <label for="name">Name:</label> <br>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="country">Country:</label> <br>
+  <select id="country" name="country">
+    <option value="USA">USA</option>
+    <option value="Canada">Canada</option>
+    <option value="Mexico">Mexico</option>
+  </select><br><br>
+
+  <label>Level:</label> <br>
+  <input type="radio" id="beginner" name="level" value="beginner">
+  <label for="beginner">Beginner</label><br>
+  <input type="radio" id="intermediate" name="level" value="intermediate">
+  <label for="intermediate">Intermediate</label><br>
+  <input type="radio" id="advanced" name="level" value="advanced">
+  <label for="advanced">Advanced</label><br><br>
+
+  <label for="identity">Identity:</label> <br>
+  <select id="identity" name="identity" multiple>
+    <option value="student">Student</option>
+    <option value="teacher">Teacher</option>
+    <option value="developer">Developer</option>
+  </select><br><br>
+
+  <label>Favorite:</label><br>
+  <input type="checkbox" id="sports" name="favorite" value="sports">
+  <label for="sports">Sports</label><br>
+  <input type="checkbox" id="music" name="favorite" value="music">
+  <label for="music">Music</label><br>
+  <input type="checkbox" id="movies" name="favorite" value="movies">
+  <label for="movies">Movies</label><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
